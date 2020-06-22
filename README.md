@@ -1,10 +1,9 @@
 # streamlit_projects
 
-![]("https://github.com/ParasNandwani/streamlit_projects/blob/master/images/45109972%20(1).png")
+![streamlit.png](https://raw.githubusercontent.com/ParasNandwani/streamlit_projects/master/images/45109972%20(1).png)<br/><br/>
 
-  # Streamlit    
-  ## The fastest way to      
-  ## build data apps        
-
-!pip install streamlit     
+  # Streamlit<br/>
+  ## The fastest way to<br/>     
+  ## build data apps<br/>
+!pip install streamlit    
 streamlit hello
