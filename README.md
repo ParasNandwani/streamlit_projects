@@ -1,6 +1,6 @@
 # streamlit_projects
 
-![streamlit.png](images/45109972 (1).png)<br/><br/>
+![streamlit.png](https://raw.githubusercontent.com/ParasNandwani/streamlit_projects/master/images/45109972%20(1).png)<br/><br/>
 
   # Streamlit<br/>
   ## The fastest way to<br/>     
