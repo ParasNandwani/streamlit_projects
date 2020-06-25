@@ -11,10 +11,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
+import matplotlib.pyplot as plt
 
 dataframe=pd.DataFrame(np.random.randn(10, 20),columns=('col %d' % i for i in range(20)))
 st.table(dataframe)
 
+plt.figure(figsize=(10,5))
+plt.scatter(x=[1,2,4,5],y=[2,3,4,5])
+st.pyplot(plt)
 
 st.text("This will appear first")
 
@@ -36,7 +40,7 @@ st.write("Animate Elements")
 
 progress_bar=st.progress(0)
 status_text=st.empty()
-chart=st.line_chart(np.random.randn(10,2))
+chart=st.line_chart(np.random.randn(10,2), width=20, height=20)
 
 for i in range(100):
     #update progress bar
